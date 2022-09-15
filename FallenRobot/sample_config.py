@@ -10,17 +10,18 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
 
-    API_ID = ""
-    API_HASH = ""
-    TOKEN = ""
-    OWNER_ID = ""
-    OWNER_USERNAME = ""
-    SUPPORT_CHAT = ""
-    JOIN_LOGGER = ()
-    EVENT_LOGS = ()
+    API_ID = "17238420"
+    API_HASH = "a5dfe7be2537dd349a5e89254b579b7f"
+    TOKEN = "5503180055:AAG3HLwtKKUiYgI_ptcom1YvgvqZAaMioKU"
+    OWNER_ID = "5148085059"
+    OWNER_USERNAME = "@Let_me_know_U_X"
+    SUPPORT_CHAT = "https://t.me/About_Botss"
+    JOIN_LOGGER = (1795231223)
+    EVENT_LOGS = (1795231223)
 
-    SQLALCHEMY_DATABASE_URI = ""
-    MONGO_DB_URI = ""
+    SQLALCHEMY_DATABASE_URI = "postgres://jheijuon:XxdXENMLe2drQ9Dcj3wqIa0sQvHubuaN@jelani.db.elephantsql.com/jheijuon"
+    MONGO_DB_URI = "mongodb+srv://namaste:2GS1lG1iWx1lZTA1@cluster0.9kyhvfj.mongodb.net
+/?retryWrites=true&w=majority"
     LOAD = []
     NO_LOAD = ["rss"]
     WEBHOOK = False
