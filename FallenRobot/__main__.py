@@ -29,14 +29,14 @@ from telethon import __version__ as tlhver
 
 import FallenRobot.modules.sql.users_sql as sql
 from FallenRobot import (
-    BOT_NAME,
-    BOT_USERNAME,
+    BOT_NAME,  ˹sʜɪᴋɪᴍᴏʀɪ ꭙ ʀᴏʙᴏᴛ˼ 
+    BOT_USERNAME,@Shikimorix_Robot
     CERT_PATH,
     DONATION_LINK,
     LOGGER,
     OWNER_ID,
     PORT,
-    START_IMG,
+    START_IMG,https://telegra.ph/file/f063b1751047d7d4146f7.mp4
     SUPPORT_CHAT,
     TOKEN,
     URL,
@@ -237,8 +237,8 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_photo(
-            START_IMG,
+        update.effective_message.reply_video(
+            START_IMG,https://telegra.ph/file/f063b1751047d7d4146f7.mp4
             caption="ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ !\n<b>ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​:</b> <code>{}</code>".format(
                 uptime
             ),
